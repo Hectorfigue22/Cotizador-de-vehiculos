@@ -1,6 +1,7 @@
+
 let mensaje_precio = ""
 let continuar = true
-const mensajeInicial = "Ingrese el codigo de su producto \n" +
+const mensaje_inicial = "Ingrese el codigo de su producto \n" +
                         "A) Motos \n" +
                         "B) Autos \n" +
                         "C) Autos Electricos \n" +
@@ -8,7 +9,7 @@ const mensajeInicial = "Ingrese el codigo de su producto \n" +
                         "E) Camiones \n"
 
 function iniciar_consulta() {
-    let seleccion = prompt(mensajeInicial).toUpperCase().trim()
+    let seleccion = prompt(mensaje_inicial).toUpperCase().trim()
     
     if (seleccion !== "A" && seleccion !== "B" && seleccion !== "C" && seleccion !== "D" && seleccion !== "E" ){
         alert("Debes ingresar un código válido para tu producto")
@@ -36,7 +37,7 @@ function iniciar_consulta() {
 
 }
 
-function preguntarPrecio() {
+function preguntar_precio() {
 
     while(continuar) {
         iniciar_consulta()
