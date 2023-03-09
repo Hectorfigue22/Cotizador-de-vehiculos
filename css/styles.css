@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: black;
+}
+
+.contenedor_encabezado{
+    background: #1c2124;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+header h1{
+    text-align: center;
+    color: rgb(72, 227, 33);
+    padding-top: 2%;
+}
+
+header h2{
+    text-align: center;
+    color: rgb(234, 202, 143);
+}
+
+main {
+    background-color: rgb(70, 31, 31);
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+main div h3{
+    text-align: center;
+    color: rgb(234, 202, 143);
+    padding-top: 1%;
+    font-size: xx-large;
+}
+
+main div p{
+    text-align: center;
+    color: rgb(225, 170, 69);
+    padding-top: 1%;
+    font-size: xx-large;
+}
+
+main div ul li{
+    color: #fff;
+    font-size: xx-large;
+}
+
+.img_cotizacion{
+   width: 700px;
+   height: 500px;
+   margin-left: 25%;
+}
+
+footer{
+    background-color: #252A2E;
+    color: #fff;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    font-size: large;
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.div-cotizar {
+    background-color: rgb(224, 135, 25);
+    font-weight: 800;
+    color: whitesmoke;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 10px gray;
+}
+.texto_cotizador{
+    color: black;
+    text-align: center;
+}
+
+.div-cotizar button {
+    background-color: white !important;
+    border-color: black !important;
+}
+
+.div-cotizar button:active {
+    background-color: black !important;
+    border-color: white !important;
+}
