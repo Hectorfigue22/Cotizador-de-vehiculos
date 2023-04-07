@@ -24,5 +24,5 @@ const datos_ubicacion = [{codigo: 1, tipo: "Salta centro", factor: 1.2},
                         {codigo: 10, tipo: "Mendoza Aeropuerto", factor: 1.5},
                         {codigo: 11, tipo: "Bariloque centro", factor: 1.2},
                         {codigo: 12, tipo: "Bariloque aeropuerto", factor: 1.5},
-                        {codigo: 13, tipo: "Usuahia centro", factor: 1.2}
+                        {codigo: 13, tipo: "Usuahia centro", factor: 1.2},
                         {codigo: 14, tipo: "Usuahia aeropuerto", factor: 1.5}]
