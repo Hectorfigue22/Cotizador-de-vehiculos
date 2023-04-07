@@ -5,7 +5,7 @@ class cotizador {
         this.factorUbi = parseFloat(factor_ubicacion)
     }
     cotizar() {
-        let resultado = (this.factor_vehiculo * this.factor_ubicacion * this.dias)
+        let resultado = (this.factor_vehiculo * this.factor_ubicacion * this.dias).toFixed(2)
         return resultado
     }
 }

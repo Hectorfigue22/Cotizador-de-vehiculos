@@ -119,7 +119,12 @@ html {
 }
 
 h1 {
-    font-weight: 400;
+    font-weight: 700;
+    color: rgb(72, 227, 33);
+}
+
+h2 {
+    font-weight: 300;
     color: rgb(72, 227, 33);
 }
 
@@ -141,6 +146,8 @@ label {
 select, input {
     min-width: 50% !important;
     width: 70% !important;
+    color: rgb(14, 161, 63);
+    font-weight: 800;
 }
 
 .separador {
@@ -164,24 +171,20 @@ select, input {
 }
 
 .guardar:hover {
-    background-color: rgb(14, 161, 63);
+    background-color: rgb(128, 231, 164);
     padding-left: 10px;
     padding-right: 10px;
 }
 
 .guardar:active {
-    background-color: #252A2E !important;
-}
-
-.ocultar {
-    visibility: hidden;
+    background-color: #87b0d2 !important;
 }
 
 button:hover {
-    color: rgb(217, 46, 46) !important;
-    background-color: rgb(14, 161, 63) !important;
+    color: rgb(132, 117, 117) !important;
+    background-color: rgb(10, 190, 55) !important;
 }
 
 button:active {
-    background-color: #252A2E !important;
+    background-color: #6e8ba3 !important;
 }

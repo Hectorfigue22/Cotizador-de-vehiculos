@@ -21,7 +21,7 @@ function validar_datos_completos() {
 
 function realizar_cotizacion() {
     if (validar_datos_completos()) {
-        const cotizo = new cotizador(inputDias.value, select_vehiculo.value, select_ubicacion)
+        const cotizo = new cotizador(inputDias.value, select_vehiculo.value, select_ubicacion.value)
         valor_alquiler.textContent = cotizo.cotizar()
     } else {
         alert("Complete todos los datos salicitados")
